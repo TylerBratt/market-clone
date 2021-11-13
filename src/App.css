@@ -1,4 +1,6 @@
 :root {
   --clr-primary: #131921;
-  --clr-accent: #cd9042;
+  --clr-accent:#f0c14b;
+  --clr-accent-dark: #cd9042;
+  --btn-border-clr: #a88734 #9c7e31 #846a29;
 }
