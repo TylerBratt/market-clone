@@ -30,3 +30,7 @@
   color: #111;
 }
 
+.subtotal > button:hover {
+  background-color: var(--clr-accent-dark);
+}
+

@@ -44,4 +44,10 @@
   margin-top: 10px;
   border-color: var(--btn-border-clr);
   color: #111;
+  cursor: pointer;
+}
+
+.product > button:hover,
+.product > button:focus {
+  background-color: var(--clr-accent-dark);
 }

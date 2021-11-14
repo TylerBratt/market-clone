@@ -5,7 +5,6 @@ import { getBasketTotal } from '../reducer';
 import "./Subtotal.css";
 
 function Subtotal() {
-
   const [{ basket, user }, dispatch] = useStateValue();
 
   return (
@@ -14,18 +13,15 @@ function Subtotal() {
         renderText={(value) => (
           <>
           <p>
-            {/* Subtotal (0 items): */}
             Subtotal ({basket.length} items)
-            {/* <stong>0</stong> */}
-            <stong>{` ${value}`}</stong>
+            <stong>{`${value}`}</stong>
           </p>
           <small className="subtotal__gift">
-            <input type="checkbox" /> This order contains a gift
+            <input type="checkbox"/> This order contains a gift
           </small>
           </>
         )}
         decimalScale={2}
-        // value={basket.value}
         value={getBasketTotal(basket)}
         displayType={"text"}
         thousandSeparator={true}
