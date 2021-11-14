@@ -1,10 +1,12 @@
 import React from 'react'
+import Header from './Header';
 import './Home.css'
 import Product from './Product'
 
 function Home() {
   return (
     <div className="home">
+      <Header />
       <div className="home__container">
         <img className="home__image" src="https://m.media-amazon.com/images/I/71hAX5ZQkzL._SX3000_.jpg" alt="Listen Free on Amazon Music"/>
         <div className="home__row">
