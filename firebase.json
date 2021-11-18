@@ -1,6 +1,6 @@
 {
   "database": {
-    "rules": "database.rules.json"
+    "rules": "firebase.json"
   },
   "hosting": {
     "public": "build",
@@ -15,5 +15,22 @@
         "destination": "/index.html"
       }
     ]
+  },
+  "functions": {
+    "source": "functions"
+  },
+  "emulators": {
+    "functions": {
+      "port": 5001
+    },
+    "database": {
+      "port": 9000
+    },
+    "hosting": {
+      "port": 5050
+    },
+    "ui": {
+      "enabled": true
+    }
   }
 }
