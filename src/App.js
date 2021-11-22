@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Login from './components/Login'
 import Checkout from './components/Checkout';
 import Payment from './components/Payment';
+import Orders from './components/Orders'
 import { useEffect } from 'react';
 import { auth } from './components/firebase';
 import { useStateValue } from './StateProvider';
@@ -43,7 +44,8 @@ function App() {
             <Route exact path="/login" element={<Login/>}/>
             <Route exact path="/" element={<Home/>}/>
             <Route exact path="/checkout" element={<Checkout/>}/>
-              <Route exact path="/payment" element={<Payment/>} />
+            <Route exact path="/payment" element={<Payment/>} />
+            <Route exact path="/orders" element={<Orders/>} />
           </Routes>
         </Elements>
       </div>

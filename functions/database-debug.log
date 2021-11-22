@@ -1,7 +1,7 @@
-14:48:28.601 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
-14:48:28.784 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000
-14:48:31.576 [Thread-1] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
-14:48:31.591 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.Terminator$Terminator - 1 actors left to terminate: market-clone-default-rtdb
-14:48:31.600 [NamespaceSystem-akka.actor.default-dispatcher-6] INFO com.firebase.core.namespace.NamespaceActor - Stopping namespace actor for market-clone-default-rtdb
-14:48:31.601 [NamespaceSystem-akka.actor.default-dispatcher-6] INFO com.firebase.core.namespace.NamespaceActor - Gauges removed for market-clone-default-rtdb
-14:48:31.604 [Thread-1] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
+13:21:57.293 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+13:21:57.488 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000
+13:21:59.576 [Thread-1] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+13:21:59.595 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.Terminator$Terminator - 1 actors left to terminate: market-clone-default-rtdb
+13:21:59.601 [NamespaceSystem-akka.actor.default-dispatcher-9] INFO com.firebase.core.namespace.NamespaceActor - Stopping namespace actor for market-clone-default-rtdb
+13:21:59.602 [NamespaceSystem-akka.actor.default-dispatcher-9] INFO com.firebase.core.namespace.NamespaceActor - Gauges removed for market-clone-default-rtdb
+13:21:59.605 [Thread-1] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.

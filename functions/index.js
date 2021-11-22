@@ -12,11 +12,16 @@ const app = express();
 // - Middlewares
 app.use(cors({ origin: true }));
 app.use(express.json());
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
 
 // - API routes
 app.get("/", (req, res) => res.status(200).send("hello world"));
 
 app.post("/payments/create", async (req, res) => {
+  
   const total = req.query.total;
 
   console.log("Payment request recieved --->>", total)

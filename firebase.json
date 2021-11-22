@@ -27,7 +27,7 @@
       "port": 9000
     },
     "hosting": {
-      "port": 5050
+      "port": 5002
     },
     "ui": {
       "enabled": true
